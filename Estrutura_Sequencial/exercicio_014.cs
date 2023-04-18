@@ -16,7 +16,7 @@ class Exercicio_14{
         peso_excedente = peso - 50;
         multa = peso_excedente*4;
 
-        Console.WriteLine("Multa: " + multa);
-        
+        Console.WriteLine("Multa R$:" + multa);
+
     }
 }
