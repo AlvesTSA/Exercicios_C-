@@ -1,4 +1,9 @@
-# Exercicios_C#
+# Exercicios_C#          
+ <div align="center">
+<img src="https://user-images.githubusercontent.com/116441568/233223842-178c5b4f-ff74-4979-808e-68ec1ff51c29.jpg" width="100px" />
+</div>
+              
+
  ## Entendendo e treinando C# 
 
 ### Estrutura sequencial
