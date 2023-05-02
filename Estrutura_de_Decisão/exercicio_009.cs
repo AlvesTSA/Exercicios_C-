@@ -2,7 +2,7 @@
 
 using System;
 
-class exercicio_008{
+class exercicio_009{
     
     static void Main(){
         
