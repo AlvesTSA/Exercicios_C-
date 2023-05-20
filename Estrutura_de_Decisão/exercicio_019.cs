@@ -14,7 +14,7 @@ class exercicio_019{
         Console.WriteLine("Informe uma data dd/mm/aaaa: ");
         dia = int.Parse(Console.ReadLine()); 
         mes = int.Parse(Console.ReadLine()); 
-        ano = int.Parse(Console.ReadLine());;
+        ano = int.Parse(Console.ReadLine());
 
         if (ano < 0) {
 
