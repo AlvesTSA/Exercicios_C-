@@ -34,5 +34,7 @@ class exercicio_021{
         }
 
         Console.WriteLine("Centena: " + centena + "\nDezena: " + dezena + "\nUnidade: " + unidade);
+
+        Environment.Exit(0);
     }
 }
