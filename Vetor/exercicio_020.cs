@@ -35,6 +35,44 @@ class exercicio_020{
     
     static void Main(){
 
-        
+        string[] nome = new string[5];
+        float[] consumo = new float[5];
+        float litros = 0;
+        float valor = 0;
+        float preco = 2.25F;
+        float menor_consumo = 0;
+
+        Console.WriteLine("Comparativo de Consumo de Combustível\n");
+
+        for (int i = 0; i < 5; i++){
+            
+            Console.WriteLine("Veiculo " + (i + 1));
+            Console.Write("Nome: ");
+            nome[i] = Console.ReadLine();
+            Console.Write("Consumo: ");
+            consumo[i] = float.Parse(Console.ReadLine());
+        }
+
+        menor_consumo = consumo[0];
+        int y = 0;
+
+        for (int i = 0; i < 5; i++){
+            
+            if (consumo[i]  menor_consumo){
+                
+                y = i;
+            }
+        }
+
+        Console.WriteLine("Relatorio final\n");
+
+        for (int i = 0; i < 5; i++){
+
+            litros = (1000 / consumo[i]);
+            valor = preco * litros;
+            Console.WriteLine((i + 1) + "  -  " + nome[i] + "  - " + consumo[i] + " -  " + litros + " litros - R$ " + valor);
+        }
+
+        Console.WriteLine("O menor consumo e do " + nome[y]);
     }
 }
